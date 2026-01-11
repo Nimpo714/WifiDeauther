@@ -16,6 +16,12 @@ source .venv/bin/activate
 uv pip install rich 
 ```
 
+Чтобы собрать с использованием pyinstaller
+```bash
+pip install pyinstaller
+pyinstaller --noconfirm --onefile --console --name "WifiDeauther" --version-file "1.1" --uac-admin --hidden-import "subprocess" --hidden-import "rich"  "deauther.py"
+```
+
 # Примечания
 - При использовании скрипта есть шанс что вы от ключитесь от wifi
 - Скрипт необходимо запускать от рута
