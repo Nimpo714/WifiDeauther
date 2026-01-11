@@ -11,6 +11,12 @@ from rich.table import Table
 
 console = Console()
 
+# - Проверка на sudo
+if os.geteuid() == 0:
+    pass  # Проверка прошла успешно
+else:
+    print("Скрипт запущен от обычного пользователя пожалуйста используйте sudo")
+    exit(1)
 
 def clear():
     os.system('clear' if os.name != 'nt' else 'cls')
