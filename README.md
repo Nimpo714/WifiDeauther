@@ -3,8 +3,8 @@
 
 ```bash
 yay -S aircrack-ng mdk4 git
-git clone https://github.com/Nimpo714/python-deauther
-cd python-deauther
+git clone https://github.com/Nimpo714/WifiDeauther
+cd WifiDeauther
 sudo python deauther.py
 ```
 
@@ -13,4 +13,5 @@ sudo python deauther.py
 - Скрипт необходимо запускать от рута
 - Если вы перезапустили скрипт и в Доступных Сетевых интерфейсах есть например wlan0mon то введите просто wlan0 
 - Если вам нужно использовать данный сетевой интерфейс после скрипта используйте sudo airmon-ng stop <ваш сетевой интерфейс>
-- 
+
+# License GPL-3.0

