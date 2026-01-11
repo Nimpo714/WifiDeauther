@@ -7,9 +7,12 @@ git clone https://github.com/Nimpo714/WifiDeauther
 cd WifiDeauther
 sudo python deauther.py
 ```
+
+# Библеотеки
 ```bash
 yay -S python-uv
 uv venv
+source .venv/bin/activate
 uv pip install rich 
 ```
 
