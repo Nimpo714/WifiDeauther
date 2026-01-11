@@ -7,6 +7,11 @@ git clone https://github.com/Nimpo714/WifiDeauther
 cd WifiDeauther
 sudo python deauther.py
 ```
+```bash
+yay -S python-uv
+uv venv
+uv pip install rich 
+```
 
 # Примечания
 - При использовании скрипта есть шанс что вы от ключитесь от wifi
